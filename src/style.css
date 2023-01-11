@@ -1,0 +1,119 @@
+.tech-icons {
+    font-size: 3.5em !important;
+    margin: 15px !important;
+    padding: 10px !important;
+    opacity: 0.93 !important;
+    border: 1.7px solid #6957af !important;
+    vertical-align: middle !important;
+    text-align: center !important;
+    border-radius: 5px !important;
+    display: table !important;
+    /* box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important; */
+    overflow: hidden !important;
+    transition: all 0.4s ease 0s !important;
+  }
+  
+  @media (max-width: 767px) {
+    .tech-icons {
+      margin: 10px !important;
+    }
+  }
+  
+  /* .tech-icons:hover {
+    transform: scale(1.05) !important;
+    overflow: hidden !important;
+    border: 2.2px solid #ffbb00 !important;
+  } */
+  .tech-icon-images {
+    padding: 20px !important;
+    line-height: 1.6 !important;
+  }
+  
+  .home-about-social {
+    text-align: center !important;
+    color: white !important;
+  }
+  
+  .home-about-social-links {
+    justify-content: center !important;
+    padding-top: 15px !important;
+    display: inline-block !important;
+    position: relative !important;
+    padding-inline-start: 0 !important;
+  }
+  
+  .home-social-icons {
+    position: relative !important;
+    display: inline-block !important;
+    width: 40px !important;
+    height: 40px !important;
+    text-align: center !important;
+    font-size: 1.2em !important;
+    line-height: 2em !important;
+    background: rgba(255, 255, 255, 0.972) !important;
+    border-radius: 50% !important;
+    transition: 0.5s !important;
+  }
+  
+  .home-social-icons::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #68187a;
+    transition: 0.5s;
+    transform: scale(0.9);
+    z-index: -1;
+  }
+  
+  .home-social-icons:hover::before {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #801f95;
+  }
+  
+  .home-social-icons:hover {
+    color: #87209e;
+    box-shadow: 0 0 5px #87209e;
+    text-shadow: 0 0 2px #87209e;
+  }
+  
+  .social-icons {
+    display: inline-block !important;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+.socialtexth {
+  margin-left: 39%;
+  font-weight: 500;
+}
+
+.socialtextp {
+  margin-left: 31%;
+  font-weight: 200;
+}
+
+@media (max-width: 524px) {
+  .socialtexth {
+    margin-left: 34%;
+    font-weight: 500;
+  }
+  .socialtextp {
+    margin-left: 22%;
+  }
+}
+
+.icon-colour {
+  color: #700c86 !important;
+}
+
+#tsparticles {
+  position: fixed !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  width: 100%;
+  height: 100%;
+}
