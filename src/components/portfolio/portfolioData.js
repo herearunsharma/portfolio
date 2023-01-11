@@ -1,21 +1,11 @@
 import Image1 from "../../assets/img/portfolio/scanme.png"
 import Image2 from "../../assets/img/portfolio/tictactoe.png"
-import Image3 from "../../assets/img/portfolio/nepdesk2.png"
+import Image3 from "../../assets/img/portfolio/nepdesk.png"
 import Image4 from "../../assets/img/portfolio/notepad.png"
 import Image5 from "../../assets/img/portfolio/callrecord.png"
 import Image6 from "../../assets/img/portfolio/ui1.png"
 import Image7 from "../../assets/img/portfolio/inc42.png"
 import Image8 from "../../assets/img/portfolio/resume-builder.png"
-
-// import Image1 from "../../assets/img/portfolio/project-1.jpg";
-// import Image2 from "../../assets/img/portfolio/project-2.jpg";
-// import Image3 from "../../assets/img/portfolio/project-3.jpg";
-// import Image4 from "../../assets/img/portfolio/project-4.jpg";
-// import Image5 from "../../assets/img/portfolio/project-5.jpg";
-// import Image6 from "../../assets/img/portfolio/project-6.jpg";
-// import Image7 from "../../assets/img/portfolio/project-7.jpg";
-// import Image8 from "../../assets/img/portfolio/project-8.jpg";
-// import Image9 from "../../assets/img/portfolio/project-9.jpg";
 
 
 const PortfolioData = [

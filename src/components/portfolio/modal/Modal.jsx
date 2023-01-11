@@ -1,5 +1,6 @@
 import React from "react";
 import img1 from "../../../assets/img/portfolio/nepdesk1.png"
+import img3 from "../../../assets/img/portfolio/nepdesk2.png"
 import img2 from "../../../assets/img/portfolio/scanme1.png"
 import CloseImg from "../../../assets/img/cancel.svg";
 import PortfolioData from "../portfolioData";
@@ -78,7 +79,6 @@ const Modal = ({ modalId, setGetModal }) => {
                     <div>
                       <img src={img2} alt="portfolio project demo" />
                     </div>
-              
                   </Slider>
                 </figure>
 
@@ -224,9 +224,11 @@ const Modal = ({ modalId, setGetModal }) => {
                       <img src={item.image} alt="portfolio project demo" />
                     </div>
                     <div>
+                      <img src={img3} alt="portfolio project demo" />
+                    </div>
+                    <div>
                       <img src={img1} alt="portfolio project demo" />
                     </div>
-              
                   </Slider>
                 </figure>
 
