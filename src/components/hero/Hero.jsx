@@ -10,7 +10,7 @@ const heroContent = {
   heroMobileImage: heroImgMobile,
   heroTitleName: "Arun Sharma",
   heroDesignation: "Developer",
-  heroDescriptions: `I'm a Arun Sharma a web & app developer focused on
+  heroDescriptions: `I'm Arun Sharma a web & app developer focused on
   crafting clean & user‑friendly experiences, I am passionate about
   building excellent software that improves the lives of those
   around me.`,
